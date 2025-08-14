@@ -20,34 +20,16 @@
 
         function myFunction() {
             var x = $("#portfolio");
-
             if (isDisplayed) {
                 x.css("display", "none");
                 isDisplayed = false;
-                
             } else {
                 x.css("display", "block");
                 isDisplayed = true;
             }
-            
-
         }
-
-        // function myFunction() {
-        //    var x = document.getElementById("portfolio");
-        //    if (x.style.display === "block") {
-        //     x.style.display = "none";
-        //     console.log("UP---",x.style.display);
-        //    } else {
-        //     x.style.display = "block";
-        //     console.log("Down---",x.style.display);
-        //    }
-        // }
-
     </script>
 </head>
-
-
 
 <body>
     <div class="container-navbar">
@@ -73,16 +55,17 @@
         <div class="col-container-profileall">
             <div class="row-main">
                 <h1>Ratnadeep Dey</h1>
-                <h3>Photographer and Front End Developer</h3>
+                <h3>Junior Software Developer | Frontend Specialist</h3>
                 <a href="./Downloads/Resumebtech.pdf" download>
                     <button class="fa fa-download" style="font-size:15px"> Download Resume </button>
                 </a>
-                <button class="btn btn-primary" style="padding: 10px;" onclick="myFunction()">Press</button>
             </div>
 
             <div class="row-myportfolio" id="portfolio">
                 <h2>MY PORTFOLIO</h2>
             </div>
+
+            <!-- PHOTOGRAPHY SECTION -->
             <div class="photo">
                 <h3>PHOTOGRAPHY</h3>
             </div>
@@ -101,8 +84,10 @@
                 </div>
             </div>
             <br>
+
+            <!-- WEB DESIGN SECTION -->
             <div class="web">
-                <h3>WEB DESIGNING</h3>
+                <h3>WEB DESIGN & DEVELOPMENT</h3>
             </div>
             <div class="row-photos">
                 <div class="col-left">
@@ -118,92 +103,71 @@
                     <img src="./Images/Portfolio Photos/photo8.png">
                 </div>
             </div>
+
+            <!-- ABOUT SECTION -->
             <div class="row-about" id="about">
                 <div class="about">
                     <h2>ABOUT</h2>
                 </div>
                 <div class="about-info">
-                    <h3>I am Ratnadeep Dey,Currently working with MettleTech as a Trainee Developer. I am persuing
-                        B.Tech in Electronics And Communication form
-                        Durgapur Institute of Advanced Technology And Management . I live in BudBud, district Burdwan.
-                        I love photography and like to travel a lot.
-                        adipisicing elit. Ad blanditiis voluptas pariatur ipsam
-                        aliquid ea voluptatum quos expedita, ipsum sed nulla eveniet, deserunt non enim molestiae
-                        inventore
-                        ullam dolor et architecto explicabo assumenda maiores dignissimos atque. Necessitatibus, quis
-                        cum?
-                        Delectus temporibus nesciunt ab! Velit similique ipsum cumque ab dolore, perspiciatis iure sed
-                        quos
-                        sint, in sequi numquam natus quasi nam odio. Totam laborum blanditiis quaerat voluptate
-                        consectetur
-                        maiores minus sit rem itaque nesciunt? Voluptate laboriosam aut iusto fuga quo. Atque libero
-                        beatae
-                        inventore quibusdam doloremque iste quis harum nihil fugiat hic. Inventore voluptatem eveniet
-                        fugiat
-                        non dolor alias iste repellendus.
+                    <h3>
+                        I am Ratnadeep Dey, a results-driven Junior Software Developer with hands-on experience in
+                        frontend development using React.js, JavaScript, HTML, CSS, and jQuery.
+                        Currently working at Mettle Tech Services and Solutions, I have contributed to enterprise-level
+                        software and AI/ML application development.
+                        My expertise lies in UI/UX design, API integration, and performance optimization.
+                        I hold a B.Tech in Electronics & Communication Engineering from Durgapur Institute of Advanced
+                        Technology & Management (CGPA 8.41) and a Diploma in Electronics & Telecommunication Engineering
+                        from Dr. B. C. Roy Polytechnic College.
+                        I am passionate about creating scalable web solutions and also enjoy photography and travel.
                     </h3>
                 </div>
             </div>
 
+            <!-- SKILLS -->
             <div class="rating">
                 <h3 class="myskill">My Skills</h3>
-                <p class="photography">Photography</p>
+                <p>React.js / JavaScript</p>
                 <div class="photography1">
-                    <div class="photography2" style="height:28px;width:95%"></div>
+                    <div class="photography2" style="height:28px;width:90%"></div>
                 </div>
-                <p class="webdesign">Web Design</p>
+                <p>HTML / CSS / jQuery</p>
                 <div class="webdesign1">
-                    <div class="webdesign2" style="height:28px;width:85%"></div>
+                    <div class="webdesign2" style="height:28px;width:95%"></div>
                 </div>
-                <p class="photoshop">Photoshop</p>
+                <p>Bootstrap / UI-UX Design</p>
                 <div class="photoshop1">
-                    <div class="photoshop2" style="height:28px;width:80%"></div>
+                    <div class="photoshop2" style="height:28px;width:85%"></div>
                 </div>
-                <p class="photoshop">HTML</p>
-                <div class="photoshop1">
-                    <div class="photoshop2" style="height:28px;width:90%"></div>
-                </div>
-                <p class="photoshop">C/C++</p>
+                <p>SQL / MySQL</p>
                 <div class="photoshop1">
                     <div class="photoshop2" style="height:28px;width:70%"></div>
                 </div>
-
-                <p class="photoshop">MySQL</p>
+                <p>Photography</p>
                 <div class="photoshop1">
-                    <div class="photoshop2" style="height:28px;width:50%"></div>
+                    <div class="photoshop2" style="height:28px;width:95%"></div>
                 </div>
             </div>
 
+            <!-- CONTACT SECTION -->
             <div class="row-contact" id="contact">
                 <div class="contact">
                     <h2>CONTACT ME</h2>
                 </div>
                 <div class="contact-info">
-                    <p> <i class="address"></i> Burdwan, West Bengal, India</p>
-                    <p> <i class="phone"></i> Phone: +91 8954025478</p>
-                    <p> <i class="email"></i> Email: ratnadeepdey13@gmail.com</p>
-
-                    <br />
-
-                    <!-- <p>Let's get in touch. Send me a message:</p> -->
-
-                    <form action="/action_page.php" target="_blank">
-                        <p><input class="sendmessage" type="text" placeholder="Name" required name="Name">
-                        </p>
-                        <p><input class="sendmessage" type="text" placeholder="Email" required name="Email">
-                        </p>
-                        <p><input class="sendmessage" type="text" placeholder="Subject" required name="Subject"></p>
-                        <p><input class="sendmessage" type="text" placeholder="Message" required name="Message"></p>
-                        <p>
-                            <br />
-                            <button class="sendmsgbtn" type="submit">
-                                <i></i> SEND MESSAGE
-                            </button>
-                        </p>
-                    </form>
+                    <p>Kolkata, West Bengal, India</p>
+                    <p>Phone: +91 8172012647</p>
+                    <p>Email: dey422916@gmail.com</p>
+                    <p>LinkedIn: <a href="https://linkedin.com/in/ratnadeep-dey-635506149"
+                            target="_blank">linkedin.com/in/ratnadeep-dey-635506149</a></p>
+                    <p>GitHub: <a href="https://github.com/dey422916" target="_blank">github.com/ratnadeepdey1998</a>
+                    </p>
+                    <p>Instagram: <a href="Instagram - https://www.instagram.com/rdratnadeepdey/"
+                            target="_blank">instagram.com/rdratnadeepdey</a></p>
                 </div>
-
             </div>
+
+            <!-- FOOTER -->
             <div class="row-footer">
                 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge"
                     style="margin:0px">
@@ -213,11 +177,11 @@
                     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
                     <i class="fa fa-twitter w3-hover-opacity"></i>
                     <i class="fa fa-linkedin w3-hover-opacity"></i>
-                    <p class="w3-medium">Copyright 2022 </a></p>
+                    <p class="w3-medium">© 2025 Ratnadeep Dey</p>
                 </footer>
             </div>
         </div>
     </div>
-
-
 </body>
+
+</html>
