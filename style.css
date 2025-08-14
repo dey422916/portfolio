@@ -193,7 +193,7 @@ body {
 .contact-info {
     padding: 10px 40px;
     font-size: 17px;
-    color: #4fadad;
+    color: #a1a1a1;
     letter-spacing: 1px;
 }
 
@@ -216,6 +216,10 @@ body {
 
 .rating {
     padding: 10px 40px;
+}
+
+.rating p {
+    color: #a1a1a1;
 }
 
 .myskill {
